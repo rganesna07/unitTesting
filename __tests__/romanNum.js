@@ -21,10 +21,18 @@ test("2000 gets converted to MM", function(){
     expect(romanNum(2000)).toBe("MM");
 })
 
+test("3000 gets converted to MM", function(){
+    expect(romanNum(3000)).toBe("MMM");
+})
+
 test("100 gets converted to C", function(){
     expect(romanNum(100)).toBe("C");
 })
 
 test("500 gets converted to CCCCC", function(){
     expect(romanNum(500)).toBe("CCCCC");
+})
+
+test("900 gets converted to CCCCCCCCC", function(){
+    expect(romanNum(900)).toBe("CCCCCCCCC");
 })
