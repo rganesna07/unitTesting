@@ -2,12 +2,10 @@ const romanNum = require("../lib/romanNum")
 
 
 test("number below 1 is an invalid input", function(){
-    const converter = new romanNum();
     expect(() => romanNum(0)).toThrow();
 })
 
 test("Number greater that 3999 is an invalid input", function(){
-    const converter = new romanNum();
     expect(() => romanNum(4000)).toThrow();
 })
 
@@ -37,7 +35,7 @@ test("50 converts to L", function(){
     expect(romanNum(50)).toBe("L");
 })
 
-test("2370 converts to MMCCCLXXV", function(){
+test("2375 converts to MMCCCLXXV", function(){
     expect(romanNum(2375)).toBe("MMCCCLXXV");
 })
 
