@@ -51,7 +51,7 @@ test("40 converts to XXXX", function(){
     expect(romanNum(40)).toBe("XXXX");
 })
 
-//should fail
+
 test("5 converts to V", function(){
-    expect(romanNum(5)).toBe("XXXX");
+    expect(romanNum(5)).toBe("V");
 })
