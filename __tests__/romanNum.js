@@ -22,9 +22,9 @@ test("2000 gets converted to MM", function(){
 })
 
 test("100 gets converted to C", function(){
-    expect(romanNum(100)).toBe("MM");
+    expect(romanNum(100)).toBe("C");
 })
 
-test("500 gets converted to CCCC", function(){
-    expect(romanNum(500)).toBe("MM");
+test("500 gets converted to CCCCC", function(){
+    expect(romanNum(500)).toBe("CCCCC");
 })
