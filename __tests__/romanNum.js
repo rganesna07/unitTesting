@@ -12,11 +12,11 @@ test("Number greater that 3999 is an invalid input", function(){
 })
 
 //this should fail, making sure it fails because 1000 should be M
-test("any multiple of 1000 gets converted to M", function(){
-    expect(romanNum(1000)).toBe("L");
+test("each time 1000 goes into the arabic Number, M gets added to the string. So, 1000 converts to M.", function(){
+    expect(romanNum(1000)).toBe("M");
 })
 
 //should also fail
 test("2000 gets converted to MM", function(){
-    expect(romanNum(2000)).toBe("L");
+    expect(romanNum(2000)).toBe("MM");
 })
