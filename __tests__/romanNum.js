@@ -1,6 +1,10 @@
 const romanNum = require("../lib/romanNum")
 
-
+//this file contains all of my AAA where I arrange, act, and assert all my tests. my commented out test cases reflect this. I intentionally
+// failed my test cases frequently to make sure my conversions were working. If they failed as expected, which I would understand 
+// with the "received" attribute in the test. If it failed for the expected reason, I would go back in and change my tests so that they would pass.\
+// If my test failed because it receieved a roman numeral I did not expect, I went back into the conversion file to figure out why it failed and refactored.
+// I would then intentionally fail my test again to confirm it failed for the right reason. Once I was sure, I changed my tests so that they would pass.
 test("number below 1 is an invalid input", function(){
     expect(() => romanNum(0)).toThrow();
 })
