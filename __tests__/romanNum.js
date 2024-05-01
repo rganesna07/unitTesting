@@ -29,7 +29,6 @@ test("100 gets converted to C", function(){
     expect(romanNum(100)).toBe("C");
 })
 
-
 test("900 gets converted to CCCCCCCCC", function(){
     expect(romanNum(900)).toBe("CCCCCCCCC");
 })
