@@ -2,5 +2,10 @@
   "name": "assignment-2",
   "version": "1.0.0",
   "description": "Unit Testing and TDD",
-  "scripts": {}
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
