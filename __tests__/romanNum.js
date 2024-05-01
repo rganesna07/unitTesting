@@ -37,16 +37,16 @@ test("50 converts to L", function(){
     expect(romanNum(50)).toBe("L");
 })
 
-test("370 converts to CCCLXX", function(){
-    expect(romanNum(370)).toBe("CCCLXX");
+test("370 converts to MMCCCLXX", function(){
+    expect(romanNum(2370)).toBe("MMCCCLXX");
 })
 
-//should be X, so should fail
+
 test("10 converts to X", function(){
     expect(romanNum(10)).toBe("X");
 })
 
-//should be XXXX, so should fail
+
 test("40 converts to XXXX", function(){
     expect(romanNum(40)).toBe("XXXX");
 })
