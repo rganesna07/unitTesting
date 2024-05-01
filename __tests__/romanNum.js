@@ -39,9 +39,9 @@ test("900 gets converted to CCCCCCCCC", function(){
 
 /*should fail, in red phase*/
 test("50 converts to L", function(){
-    expect(romanNum(50)).toBe("M");
+    expect(romanNum(50)).toBe("L");
 })
 
 test("350 converts to CCCL", function(){
-    expect(romanNum(350)).toBe("MMMM");
+    expect(romanNum(350)).toBe("CCCL");
 })
