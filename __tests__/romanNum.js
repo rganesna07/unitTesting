@@ -40,3 +40,13 @@ test("50 converts to L", function(){
 test("350 converts to CCCL", function(){
     expect(romanNum(350)).toBe("CCCL");
 })
+
+//should be X, so should fail
+test("10 converts to X", function(){
+    expect(romanNum(10)).toBe("CL");
+})
+
+//should be XXXX, so should fail
+test("40 converts to XXXX", function(){
+    expect(romanNum(40)).toBe("CL");
+})
