@@ -16,7 +16,15 @@ test("each time 1000 goes into the arabic Number, M gets added to the string. So
     expect(romanNum(1000)).toBe("M");
 })
 
-//should also fail
+
 test("2000 gets converted to MM", function(){
     expect(romanNum(2000)).toBe("MM");
+})
+
+test("100 gets converted to C", function(){
+    expect(romanNum(100)).toBe("MM");
+})
+
+test("500 gets converted to CCCC", function(){
+    expect(romanNum(500)).toBe("MM");
 })
