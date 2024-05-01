@@ -62,7 +62,7 @@ test("verification passes when password has at least 1 uppercase letter", functi
     expect(verifyPassword("pAssword@1").pass).toBe(true)
 })
 
-test("verification passes when password has no numbers", function(){
+test("verification passes when password has at least 1 number", function(){
     expect(verifyPassword("pAssword1@").digit).toBe(true)
     expect(verifyPassword("pAsswor1d@").pass).toBe(true)
 })
