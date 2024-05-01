@@ -35,8 +35,8 @@ test("50 converts to L", function(){
     expect(romanNum(50)).toBe("L");
 })
 
-test("2375 converts to MMCCCLXXV", function(){
-    expect(romanNum(2375)).toBe("MMCCCLXXV");
+test("2378 converts to MMCCCLXXVIII", function(){
+    expect(romanNum(2378)).toBe("MMCCCLXXVIII");
 })
 
 
