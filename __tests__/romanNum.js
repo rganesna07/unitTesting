@@ -131,4 +131,7 @@ test("1 converts to roman I", function(){
     expect(romanNum(1)).toBe("I");
 })
 
+test("3999 converts to roman MMMCCCCCCCCCLXXXXVIIII", function(){
+    expect(romanNum(3999)).toBe("MMMCCCCCCCCCLXXXXVIIII");
+})
 
