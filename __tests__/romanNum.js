@@ -43,10 +43,10 @@ test("350 converts to CCCL", function(){
 
 //should be X, so should fail
 test("10 converts to X", function(){
-    expect(romanNum(10)).toBe("CL");
+    expect(romanNum(10)).toBe("X");
 })
 
 //should be XXXX, so should fail
 test("40 converts to XXXX", function(){
-    expect(romanNum(40)).toBe("CL");
+    expect(romanNum(40)).toBe("XXXX");
 })
