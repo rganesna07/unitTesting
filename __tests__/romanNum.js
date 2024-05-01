@@ -29,15 +29,11 @@ test("100 gets converted to C", function(){
     expect(romanNum(100)).toBe("C");
 })
 
-test("500 gets converted to CCCCC", function(){
-    expect(romanNum(500)).toBe("CCCCC");
-})
 
 test("900 gets converted to CCCCCCCCC", function(){
     expect(romanNum(900)).toBe("CCCCCCCCC");
 })
 
-/*should fail, in red phase*/
 test("50 converts to L", function(){
     expect(romanNum(50)).toBe("L");
 })
