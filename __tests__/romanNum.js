@@ -2,11 +2,11 @@ const romanNum = require("../lib/romanNum")
 
 
 test("number below 1 is an invalid input", function(){
-    expect(() => romanNum(0)).toThrow();
+    expect(() => romanNum(2)).toThrow();
 })
 
 test("Number greater that 3999 is an invalid input", function(){
-    expect(() => romanNum(4000)).toThrow();
+    expect(() => romanNum(4)).toThrow();
 })
 
 //this should fail, making sure it fails because 1000 should be M
